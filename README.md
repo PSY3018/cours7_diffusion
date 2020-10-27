@@ -1,29 +1,30 @@
-# Creating interactive presentations on Binder with RISE
+# Cours 7 - Présentation interactive sur l'IRM de diffusion avec DIPY
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/binder-examples/jupyter-rise/master?filepath=index.ipynb)
+[![Binder](http://mybinder.org/badge.svg)]()
 
-RISE allows you to quickly generate a live, interactive presentation from a
-Jupyter Notebook that is connected to the underlying Kernel of the notebook.
-Using a new feature for automatically launching
-the RISE plugin when a notebook is opened, RISE can be used to share interactive
-presentations that run in the cloud with Binder.
-This repository demonstrates how to accomplish this.
+Cours 7 - IRM de diffusion
+============================
+Cliquez sur le badge ci-dessous et attendez que l'environnement charge complètement.
+[![badge](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PSY3018/cours7_diffusion/master?filepath=index.ipynb)
+Vous pourrez ensuite accéder au notebook comme si vous aviez un environnement python sur votre machine.
 
-To make your RISE presentation automatically-launch with it is open,
-add an `autolaunch=true` configuration
-parameter to a notebook's `livereveal` section in the
-metadata. E.g.:
+Si la présentation ne se lance pas automatique, vous devrez faire `Alt+r`.
 
-```
-...
-"livereveal": {
-        "autolaunch": true
-        }
-...
-```
+Installation locale
+=============
+Si vous désirez rouler le code sur votre machine, assurez-vous d'avoir la liste
+des packages python (située dans le fichier [environment.yml](/environment.yml).txt*) installés dans
+votre environnement local.
 
-When the notebook is launched, your
-presentation will automatically begin.
+Si vous ne savez pas comment, le plus simple est d'installer [conda](conda.org) sur votre machine et ensuite cloner le repertoire suivant en cliquer sur le bouton vert en haut à droite [Clone this repo]
 
-See the [RISE Documentation](https://damianavila.github.io/RISE/)
-for more information.
+
+Une fois que vous êtes dans le dossier cours7_diffusion et que mini-conda est installé, ouvrez un terminal et écrivez cette commande afin d'installer l'environnement virtuel qui permettra de lancer le jupyter-notebook et la présentation.
+
+`conda env create -f environment.yml`
+
+Nous ne voulons pas nous attarder aux problèmes d'installation. Pour cela, nous
+allons éviter les détails d'une installation locale. Par contre, voici un
+`tutoriel <https://neurokit2.readthedocs.io/en/latest/installation.html>`_
+pour les curieux.ses.
+

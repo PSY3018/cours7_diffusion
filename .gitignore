@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+*.mov
+*.mp4
+*.tif
+*nii.gz
+image29.png
+*.ts
