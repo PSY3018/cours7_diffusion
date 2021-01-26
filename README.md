@@ -1,6 +1,6 @@
 # Cours 7 - Présentation interactive sur l'IRM de diffusion avec DIPY
 
-[![Binder](http://mybinder.org/badge.svg)]()
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/PSY3018/cours7_diffusion/master?filepath=index.ipynb)
 
 Cours 7 - IRM de diffusion
 ============================
